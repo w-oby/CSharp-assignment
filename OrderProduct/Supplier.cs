@@ -7,12 +7,12 @@ public class Supplier
     public string NameOfContact { get; set; }
     public int DurationContractInDays { get; set; }
 
-    public Supplier(int id, string name, string nameOfContact, int durationContactInDays)
+    public Supplier(int id, string name, string nameOfContact, int durationContractInDays)
     {
         Id = id;
         Name = name;
         NameOfContact = nameOfContact;
-        DurationContractInDays = durationContactInDays;
+        DurationContractInDays = durationContractInDays;
     }
 
 }
